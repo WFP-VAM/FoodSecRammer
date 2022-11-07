@@ -3,6 +3,6 @@ wtd_table_perc_long <- function(d, grp = NULL, col, weight = NULL) {
     group_by_at(grp) %>%
     drop_na({{col}}) %>%
     count({{col}}, wt = {{weight}}) %>%
-    mutate(perc = 100 * n / sum(n)) %>%
+    mutate(Percentage = 100 * n / sum(n)) %>%
     ungroup() %>% select(-n)
 }
