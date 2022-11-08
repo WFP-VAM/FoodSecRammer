@@ -14,3 +14,5 @@ Themes for tables
 Tons more to do on make specific graphics - FCS, rCSI, CARI
 
 Creating/calculating weights
+
+Maps?
